@@ -1,0 +1,4 @@
+
+SELECT split (tags, '| '), TAGS FROM `bigquery-public-data.stackoverflow.posts_questions` 
+where extract (YEAR from creation_date ) >=2008
+GROUP BY TAGS
