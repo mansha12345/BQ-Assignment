@@ -1,0 +1,3 @@
+SELECT Outpatient_services
+FROM `bigquery-public-data.cms_medicare.outpatient_charges_2011` LIMIT 1000
+WHERE average_total_payments > 40
