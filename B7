@@ -1,0 +1,2 @@
+SELECT max(average_total_payments)
+FROM `bigquery-public-data.cms_medicare.outpatient_charges_2012` LIMIT 1000
