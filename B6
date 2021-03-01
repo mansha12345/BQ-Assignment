@@ -1,0 +1,3 @@
+SELECT min(average_estimated_submitted_charges)
+FROM `bigquery-public-data.cms_medicare.outpatient_charges_2012` LIMIT 1000
+
