@@ -1,0 +1,3 @@
+_min total size of land
+SELECT min(total_size)
+FROM `bigquery-public-data.cloud_storage_geo_index.landsat_index` WHERE DATE(sensing_time) = "2021-03-02" LIMIT 1000
